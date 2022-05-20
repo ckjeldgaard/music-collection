@@ -1,4 +1,4 @@
-name: CI
+name: Deploy
 
 on:
   push:
@@ -40,7 +40,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy
+      - name: API deploy
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
