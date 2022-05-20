@@ -1,20 +1,19 @@
-# Turborepo starter with npm
+# Music collection
 
-This is an official starter turborepo.
+> This is a Node.js based music collection monorepo containing a REST API and a web UI.
 
 ## What's inside?
 
-This turborepo uses [npm](https://www.npmjs.com/) as a package manager. It includes the following packages/apps:
+This [turborepo](https://turborepo.org/) uses [npm](https://www.npmjs.com/) as a package manager. It includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `api`: a [Nest.js](https://nestjs.com/) app containing a REST API
+- `web`: a [Next.js](https://nextjs.org) app
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+Each package/app is [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities
 
