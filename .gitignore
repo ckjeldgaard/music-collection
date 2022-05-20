@@ -14,9 +14,15 @@ lerna-debug.log*
 # OS
 .DS_Store
 
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Tests
-/api/coverage
-/api/.nyc_output
+coverage/
+.nyc_output/
 
 # IDEs and editors
 /.idea
@@ -35,3 +41,11 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 /.env
+
+# next.js
+.next/
+out/
+build
+
+# turbo
+.turbo
