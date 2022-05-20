@@ -86,10 +86,12 @@ export class RecordService {
   }
 
   async updateRecord(recordDto: RecordDto) {
+    console.log('updateRecord(). recordDto = ', recordDto);
     return undefined;
   }
 
   async destroyRecord(id: string) {
+    console.log('destroyRecord(). id = ', id);
     return undefined;
   }
 }
